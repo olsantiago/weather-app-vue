@@ -11,7 +11,7 @@ yarn lint
 yarn prettier
 ```
 
-#### Api key
+### Api key
   * Created my own API KEY [openweathermap](https://openweathermap.org/)
   * add to .env file
 
