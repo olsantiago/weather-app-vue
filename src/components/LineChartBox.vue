@@ -6,11 +6,6 @@ import { Chart, registerables } from 'chart.js'
 import { getWeekDay } from '../utils'
 
 Chart.register(...registerables)
-Chart.defaults.font = {
-  size: 12,
-  family: "'Albert Sans', sans-serif",
-  weight: 500,
-}
 
 export default defineComponent({
   components: { LineChart },

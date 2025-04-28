@@ -36,10 +36,10 @@ const handleSelect = (e) => {
 <template>
   <div class="w-full h-[48px] px-4 relative">
     <button
-      @click.prevent="handleClick"
       type="button"
       aria-label="focus"
       class="h-[48px] w-1/12 float-right absolute right-0"
+      @click.prevent="handleClick"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
