@@ -38,7 +38,7 @@ const handleSelect = (e) => {
     <button
       type="button"
       aria-label="focus"
-      class="h-[48px] w-1/12 float-right absolute right-0"
+      class="h-[48px] w-1/12 float-right absolute right-6 md:right-0"
       @click.prevent="handleClick"
     >
       <svg
