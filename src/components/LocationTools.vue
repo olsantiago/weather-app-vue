@@ -4,7 +4,7 @@ const citySearch = ref('')
 const showMostPopular = ref(false)
 
 const emit = defineEmits(['getCoords', 'search'])
-const mostPopular = ['Rio De Janero', 'Beijing', 'Los Angeles']
+const mostPopular = ['Rio De Janeiro', 'Beijing', 'Los Angeles']
 
 const handleSearch = () => {
   emit('search', citySearch.value.trim())
