@@ -1,7 +1,6 @@
 <script setup>
-import BaseIcons from './BaseIcons.vue'
-import { getWeekDay, getHour } from '../utils'
-import { onMounted } from 'vue'
+import BaseIcons from '../BaseIcons.vue'
+import { getWeekDay, getHour } from '../../utils'
 
 defineProps({
   dtTxt: String,

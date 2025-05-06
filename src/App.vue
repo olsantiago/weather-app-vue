@@ -2,8 +2,8 @@
 import { ref, computed, onMounted } from 'vue'
 import LocationTools from './components/LocationTools.vue'
 import CurrentWeather from './components/CurrentWeather.vue'
-import ForecastList from './components/ForecastList.vue'
-import LineChartBox from './components/LineChartBox.vue'
+import ForecastList from './components/Forcast/ForecastList.vue'
+import LineChartBox from './components/Charts/LineChartBox.vue'
 import { baseQuery } from './api/baseQuery'
 import AlertBox from './components/AlertBox.vue'
 
@@ -12,8 +12,6 @@ const forecast = ref([])
 const hourlyData = ref([])
 const stateNavigator = ref(0)
 const showMessage = ref(false)
-
-const year = computed(() => new Date().getFullYear())
 
 const name = computed(
   () => `${weather.value.name}, ${weather.value.sys.country ?? ''}`,

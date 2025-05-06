@@ -1,6 +1,6 @@
 <script setup>
 import ForecastItem from './ForecastItem.vue'
-import { rounded } from '../utils'
+import { rounded } from '../../utils'
 
 defineProps({
   forecast: Array,

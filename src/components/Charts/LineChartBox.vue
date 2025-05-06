@@ -3,7 +3,7 @@ import { ref } from 'vue'
 import { computed, defineComponent } from 'vue'
 import { LineChart } from 'vue-chart-3'
 import { Chart, registerables } from 'chart.js'
-import { getWeekDay } from '../utils'
+import { getWeekDay } from '../../utils'
 
 Chart.register(...registerables)
 
